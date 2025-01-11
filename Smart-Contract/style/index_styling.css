@@ -1,0 +1,73 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Bradley Hand, cursive;
+}
+body
+{
+  background-attachment: fixed; 
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../assets/index_background_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  
+  /* font-style: italic; */
+  margin: 0;
+  padding: 0%;
+  height: 100vh;
+}
+.container
+{
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+}
+.details
+{
+  height: 100%;
+}
+.details img
+{
+    width:405px;
+    height: 100%;
+}
+
+.login
+{
+    background-color: #0f121c;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+}
+.login h1
+{
+    font-weight: bolder;
+    color:white;
+    margin-bottom:60px;
+}
+.btn
+{
+    /* background-color:#1877f2;;
+    color:white;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 17px;
+    margin-bottom: 28px; */
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 7px 10px;
+    color: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    width: 20vw;
+    box-shadow: 2px 2px 2px 2px white;
+    height: 10vh;
+}
